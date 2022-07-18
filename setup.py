@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Coderboy004/locations",
     project_urls={
+        "Homepage": "https://github.com/Coderboy004/locations",
         "Bug Tracker": "https://github.com/Coderboy004/locations/issues"
     },
     classifiers=[

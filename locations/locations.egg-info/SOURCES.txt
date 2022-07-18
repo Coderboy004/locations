@@ -1,5 +1,6 @@
 LICENSE.txt
 README.md
+pyproject.toml
 setup.py
 locations/locations.egg-info/PKG-INFO
 locations/locations.egg-info/SOURCES.txt

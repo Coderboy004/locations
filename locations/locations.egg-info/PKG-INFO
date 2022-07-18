@@ -4,7 +4,8 @@ Version: 1.1.1
 Summary: This library will be used to extract usa location
 Home-page: https://github.com/Coderboy004/locations
 Author: Ashish Mishra
-Author-email: ashishmishra.dev04@gmail.com
+Author-email: Ashish Mishra <ashishmishra.dev04@gmail.com>
+Project-URL: Homepage, https://github.com/Coderboy004/locations
 Project-URL: Bug Tracker, https://github.com/Coderboy004/locations/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
