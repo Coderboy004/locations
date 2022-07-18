@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: locations
-Version: 0.0.1
+Version: 1.1.1
 Summary: This library will be used to extract usa location
-Home-page: 
+Home-page: https://github.com/Coderboy004/locations
 Author: Ashish Mishra
 Author-email: ashishmishra.dev04@gmail.com
-Project-URL: , 
+Project-URL: Bug Tracker, https://github.com/Coderboy004/locations/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
