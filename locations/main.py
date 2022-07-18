@@ -115,6 +115,18 @@ class Location(object):
             obj['state'] = ''
             obj['code'] = ''
             obj['city'] = c
+            isSearches = True
+            if len(c) > 2:
+                if isSearches:
+                    with open("../data/usa", "r") as file:
+                        for line in file:
+                            pattern = re.compile(rf"\b{c.strip().upper()}\b")
+                            searches = re.search(pattern=pattern, string=str(line.strip().upper().replace("\r", "").replace("\n", "")))
+                            if searches:
+                                obj['code'] = str(line.strip().upper().replace("\r", "").replace("\n", "")).split('":')[0].replace('{"', '').strip()
+                                obj['state'] = self.usaStates[obj['code']]
+                                isSearches = False
+                                break
             obj['country'] = 'United States'
             return obj
         elif s is None and c is None:
@@ -131,3 +143,9 @@ class Location(object):
                     return obj
             if obj['country'] == "":
                 return {"error": "invalid location"}
+
+
+if __name__ == "__main__":
+    loc = Location()
+    x = loc.Find_Location("Fremont")
+    print(x)
