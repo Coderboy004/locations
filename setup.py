@@ -22,5 +22,5 @@ setuptools.setup(
     ],
     package_dir={"": "locations"},
     packages=setuptools.find_packages(where="locations"),
-    python_requires=">=3.6"
+    python_requires=">=3.7"
 )
