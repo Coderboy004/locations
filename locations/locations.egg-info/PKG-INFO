@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: locations
+Version: 0.0.1
+Summary: This library will be used to extract usa location
+Home-page: 
+Author: Ashish Mishra
+Author-email: ashishmishra.dev04@gmail.com
+Project-URL: , 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This library will be used to extract usa location like (city, state, abbreviation and country name) from raw location string, and it will be returned in json/dict format.
+
+EXAMPLE:
+
+from locations.main import Location
+
+x = Location.Find_Location(text="San Francisco Mumbai allahabad ca us")
+print(x)

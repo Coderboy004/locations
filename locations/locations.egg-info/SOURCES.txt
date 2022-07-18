@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+locations/locations.egg-info/PKG-INFO
+locations/locations.egg-info/SOURCES.txt
+locations/locations.egg-info/dependency_links.txt
+locations/locations.egg-info/top_level.txt
+test/test.py
