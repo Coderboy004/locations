@@ -4,5 +4,12 @@ EXAMPLE:
 
 from locations.main import Location
 
-x = Location.Find_Location(text="San Francisco Mumbai allahabad ca us")
+# Example fremont is  city in usa
+
+x = Location.Find_Location(text="Fremont")
+
 print(x)
+
+# Output will be:
+
+{'city': 'Fremont', 'state': 'California', 'code': 'CA', 'country': 'United States'}
