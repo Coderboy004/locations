@@ -1,6 +1,6 @@
 import re
 
-from locations import cities
+from src import cities
 
 city_database = cities.city()
 city_space_database = cities.city_state_countries_with_spaces()

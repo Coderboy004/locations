@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: locations
 Version: 1.1.1
 Summary: This library will be used to extract usa location
-Home-page: https://github.com/Coderboy004/locations
+Home-page: 
 Author: Ashish Mishra
 Author-email: Ashish Mishra <ashishmishra.dev04@gmail.com>
 Project-URL: Homepage, https://github.com/Coderboy004/locations
@@ -16,9 +16,14 @@ License-File: LICENSE.txt
 
 This library will be used to extract usa location like (city, state, abbreviation and country name) from raw location string, and it will be returned in json/dict format.
 
-EXAMPLE:
+# Example fremont is  city in usa, so lets findout what will be the state and abbrevation:
 
 from locations.main import Location
 
-x = Location.Find_Location(text="San Francisco Mumbai allahabad ca us")
+x = Location.Find_Location(text="Fremont")
+
 print(x)
+
+# Output will be:
+
+{'city': 'Fremont', 'state': 'California', 'code': 'CA', 'country': 'United States'}
